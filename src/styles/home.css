@@ -1,0 +1,17 @@
+.custom-home .main-title {
+    text-align: center;
+}
+
+.custom-home .small-box-header {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* .custom-home .inner {
+    font-family:'digital-clock-font';
+    src: url('/fonts/digital-7.ttf');
+} */
+
