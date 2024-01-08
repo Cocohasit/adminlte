@@ -1,17 +1,32 @@
+@font-face {
+    font-family: 'digital-clock-font';
+    src: url('./digital-7.ttf');
+}
+
 .custom-home .main-title {
     text-align: center;
 }
 
 .custom-home .small-box-header {
-    display: block;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 8px 0;
     color: rgba(255, 255, 255, 0.8);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.8);
 }
 
-/* .custom-home .inner {
+.custom-home .small-box-header .signal {
+    margin-top: 4px;
+    margin-right: 4px;
+}
+
+.small-box .current-value {
+    padding: 16px 0;
+    text-align: center;
+}
+
+.digi-font {
     font-family:'digital-clock-font';
-    src: url('/fonts/digital-7.ttf');
-} */
+}
 
