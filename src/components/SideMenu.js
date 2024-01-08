@@ -28,7 +28,7 @@ function SideMenu() {
                             {/* Add icons to the links using the .nav-icon class
                             with font-awesome or any other icon font library */}
                             <li className="nav-item">
-                                <a href="#" className="nav-link active">
+                                <a href="# " className="nav-link active">
                                     <i className="nav-icon fas fa-tachometer-alt" />
                                     <p>
                                         Tổng quan
@@ -36,7 +36,7 @@ function SideMenu() {
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a href="#" className="nav-link">
+                                <a href="# " className="nav-link">
                                 <i className="nav-icon fas fa-map" />
                                 <p>
                                     Bản đồ
@@ -44,7 +44,7 @@ function SideMenu() {
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a href="#" className="nav-link">
+                                <a href="# " className="nav-link">
                                 <i className="nav-icon fas fa-warehouse" />
                                 <p>
                                     Quản lý trạm
@@ -52,7 +52,7 @@ function SideMenu() {
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a href="#" className="nav-link">
+                                <a href="# " className="nav-link">
                                 <i className="nav-icon fas fa-clipboard" />
                                 <p>
                                     Báo cáo
@@ -60,7 +60,7 @@ function SideMenu() {
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a href="#" className="nav-link">
+                                <a href="# " className="nav-link">
                                     <i className="nav-icon fas fa-user" />
                                     <p>
                                         Người dùng
@@ -68,7 +68,7 @@ function SideMenu() {
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a href="#" className="nav-link">
+                                <a href="# " className="nav-link">
                                     <i className="nav-icon fas fa-wrench" />
                                     <p>
                                         Hệ thống

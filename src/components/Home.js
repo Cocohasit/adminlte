@@ -24,96 +24,155 @@ function Home() {
                     <div className="container-fluid">
                         {/* Small boxes (Stat box) */}
                         <div className="row">
-                            <div className="col-lg-4 col-6">
+                            {/* col 1 */}
+                            <div className="col-4">
                                 {/* small box */}
-                                <div className="small-box bg-info">
+                                <div className="small-box bg-pink">
                                     <div className="small-box-header">
                                         <div />
-                                        <span>PH</span>
+                                        <span className="small-box-header inner-text">PH</span>
                                         <i className="signal fas fa-circle" />
                                     </div>
                                     <div className="current-value digi-font">
-                                        <h3>150</h3>
+                                        <h3 style={{ fontSize: 50 }}>150</h3>
                                     </div>
-                                    {/* <div className="icon">
-                                    <i className="ion ion-bag" />
-                                </div> */}
                                     <span className="small-box-footer">
                                         Giới hạn: <span className="digi-font">5 - 9</span>
                                     </span>
                                 </div>
-                            </div>
-                            {/* ./col */}
-                            <div className="col-lg-4 col-6">
                                 {/* small box */}
-                                <div className="small-box bg-success">
-                                    <div className="inner">
-                                        <h3>
-                                            53<sup style={{ fontSize: 20 }}>%</sup>
-                                        </h3>
-                                        <p>Bounce Rate</p>
+                                <div className="small-box bg-purple">
+                                    <div className="small-box-header">
+                                        <div />
+                                        <span className="small-box-header inner-text">TSS</span>
+                                        <i className="signal fas fa-circle" />
                                     </div>
-                                    <div className="icon">
-                                        <i className="ion ion-stats-bars" />
+                                    <div className="current-value">
+                                        <h3 className="digi-font" style={{ fontSize: 50 }}>150</h3>
+                                        <span style={{ fontSize: 25, fontWeight: 'bold', marginTop: 8, marginLeft: 2 }}>mg/l</span>
                                     </div>
-                                    <a href="# " className="small-box-footer">
-                                        More info <i className="fas fa-arrow-circle-right" />
-                                    </a>
+                                    <span className="small-box-footer">
+                                        Giới hạn: <span className="digi-font">0.9 - 100</span> mg/l
+                                    </span>
+                                </div>
+                                {/* small box */}
+                                <div className="small-box bg-danger">
+                                    <div className="small-box-header">
+                                        <div />
+                                        <span className="small-box-header inner-text">NHIỆT ĐỘ</span>
+                                        <i className="signal fas fa-circle" />
+                                    </div>
+                                    <div className="current-value">
+                                        <h3 className="digi-font" style={{ fontSize: 50 }}>150</h3>
+                                        <span style={{ fontSize: 25, fontWeight: 'bold', marginTop: 8, marginLeft: 2 }}>&deg;C</span>
+                                    </div>
+                                    <span className="small-box-footer">
+                                        Giới hạn: <span className="digi-font">0 - 40</span> &deg;C
+                                    </span>
                                 </div>
                             </div>
-                            {/* ./col */}
-                            <div className="col-lg-4 col-6">
+
+                            {/* col 2 */}
+                            <div className="col-4">
                                 {/* small box */}
-                                <div className="small-box bg-warning">
-                                    <div className="inner">
-                                        <h3>44</h3>
-                                        <p>User Registrations</p>
+                                <div className="small-box bg-teal">
+                                    <div className="small-box-header">
+                                        <div />
+                                        <span className="small-box-header inner-text">COD</span>
+                                        <i className="signal fas fa-circle" />
                                     </div>
-                                    <div className="icon">
-                                        <i className="ion ion-person-add" />
+                                    <div className="current-value">
+                                        <h3 className="digi-font" style={{ fontSize: 50 }}>150</h3>
+                                        <span style={{ fontSize: 25, fontWeight: 'bold', marginTop: 8, marginLeft: 2 }}>mg/l</span>
                                     </div>
-                                    <a href="# " className="small-box-footer">
-                                        More info <i className="fas fa-arrow-circle-right" />
-                                    </a>
+                                    <span className="small-box-footer">
+                                        Giới hạn: <span className="digi-font">0 - 150</span> mg/l
+                                    </span>
+                                </div>
+                                {/* small box */}
+                                <div className="small-box bg-dark">
+                                    <div className="small-box-header">
+                                        <div />
+                                        <span className="small-box-header inner-text">AMONIA</span>
+                                        <i className="signal fas fa-circle" />
+                                    </div>
+                                    <div className="current-value">
+                                        <h3 className="digi-font" style={{ fontSize: 50 }}>150</h3>
+                                        <span style={{ fontSize: 25, fontWeight: 'bold', marginTop: 8, marginLeft: 2 }}>mg/l</span>
+                                    </div>
+                                    <span className="small-box-footer">
+                                        Giới hạn: <span className="digi-font">0 - 30</span> mg/l
+                                    </span>
+                                </div>
+                                {/* small box */}
+                                <div className="small-box bg-blue">
+                                    <div className="small-box-header">
+                                        <div />
+                                        <span className="small-box-header inner-text">LƯU LƯỢNG</span>
+                                        <i className="signal fas fa-circle" />
+                                    </div>
+                                    <div className="current-value">
+                                        <h3 className="digi-font" style={{ fontSize: 50 }}>150</h3>
+                                        <span style={{ fontSize: 25, fontWeight: 'bold', marginTop: 8, marginLeft: 2 }}>m3/h</span>
+                                    </div>
+                                    <span className="small-box-footer">
+                                        Giới hạn: <span className="digi-font">1 - 800</span> m3/h
+                                    </span>
+                                </div>
+                            </div>
+
+                            {/* col 3 */}
+                            <div className="col-4">
+                                {/* small box */}
+                                <div className="small-box bg-navy">
+                                    <div className="small-box-header camera">
+                                        <div />
+                                        <span className="small-box-header inner-text">CAMERA NHÀ TRẠM</span>
+                                    </div>
+                                    <div className="current-value">
+                                        
+                                    </div>
+                                    <span className="small-box-footer">
+                                    </span>
+                                </div>
+                                {/* small box */}
+                                <div className="small-box bg-navy">
+                                    <div className="small-box-header camera">
+                                        <div />
+                                        <span className="small-box-header inner-text">CAMERA KÊNH HỞ</span>
+                                    </div>
+                                    <div className="current-value">
+                                        
+                                    </div>
+                                    <span className="small-box-footer">
+                                    </span>
                                 </div>
                             </div>
                         </div>
-                        {/* /.row */}
-                        {/* Main row */}
-                        {/* TODO: new layout */}
+                        {/* col 6 */}
+                        {/* Chart */}
                         <div className="row">
-                            <div className="col-4">
-                                Col 1
-                                <div className="row">
-                                    Col 1 Row 1
-                                </div>
-                                <div className="row">
-                                    Col 1 Row 2
-                                </div>
-                                <div className="row">
-                                    Col 1 Row 3
-                                </div>
+                            <div className="col">
+                                col 1
                             </div>
-                            <div className="col-4">
-                                Col 2
-                                <div className="row">
-                                    Col 2 Row 1
-                                </div>
-                                <div className="row">
-                                    Col 2 Row 2
-                                </div>
-                                <div className="row">
-                                    Col 2 Row 3
-                                </div>
+                            <div className="col">
+                                col 2
                             </div>
-                            <div className="col-4">
-                                Col 3
-                                <div className="row">
-                                    Col 3 Row 1
-                                </div>
-                                <div className="row">
-                                    Col 3 Row 2
-                                </div>
+                        </div>
+                        <div className="row">
+                            <div className="col">
+                                col 1
+                            </div>
+                            <div className="col">
+                                col 2
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col">
+                                col 1
+                            </div>
+                            <div className="col">
+                                col 2
                             </div>
                         </div>
                     </div>
