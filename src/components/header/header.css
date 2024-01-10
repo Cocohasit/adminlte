@@ -7,3 +7,11 @@
     color: forestgreen;
 }
 
+.custom-header .header {
+    color: rgba(255,255,255);
+}
+
+.navbar-expand {
+    justify-content: space-between;
+}
+

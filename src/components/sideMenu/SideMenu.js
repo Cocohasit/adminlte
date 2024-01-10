@@ -1,4 +1,4 @@
-import React from "react";
+import "./sidemenu.css";
 
 function SideMenu() {
     return (
@@ -37,17 +37,17 @@ function SideMenu() {
                             </li>
                             <li className="nav-item">
                                 <a href="# " className="nav-link">
-                                <i className="nav-icon fas fa-map" />
+                                <i className="nav-icon fas fa-users" />
                                 <p>
-                                    Bản đồ
+                                    Chi tiết tổ 1
                                 </p>
                                 </a>
                             </li>
                             <li className="nav-item">
                                 <a href="# " className="nav-link">
-                                <i className="nav-icon fas fa-warehouse" />
+                                <i className="nav-icon fas fa-users" />
                                 <p>
-                                    Quản lý trạm
+                                    Chi tiết tổ 2
                                 </p>
                                 </a>
                             </li>
@@ -61,18 +61,29 @@ function SideMenu() {
                             </li>
                             <li className="nav-item">
                                 <a href="# " className="nav-link">
-                                    <i className="nav-icon fas fa-user" />
+                                    <i className="nav-icon fas fa-wrench" />
                                     <p>
-                                        Người dùng
+                                        Cài đặt
                                     </p>
                                 </a>
                             </li>
-                            <li className="nav-item">
+                            <li className="nav-header">TRẠNG THÁI TRUYỀN THÔNG</li>
+                            <li class="nav-item">
                                 <a href="# " className="nav-link">
-                                    <i className="nav-icon fas fa-wrench" />
-                                    <p>
-                                        Hệ thống
-                                    </p>
+                                    <i className="nav-icon fas fa-circle text-success"></i>
+                                    <p className="text">Bình thường (sáng)</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="# " className="nav-link">
+                                    <i className="nav-icon fas fa-circle text-warning"></i>
+                                    <p className="text">Cảnh báo (sáng)</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="# " className="nav-link">
+                                    <i className="nav-icon fas fa-circle text-danger"></i>
+                                    <p className="text">Lỗi (nhấp nháy)</p>
                                 </a>
                             </li>
                         </ul>
